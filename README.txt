@@ -1,0 +1,3 @@
+1. forestOnFire.m为主函数
+2. 如果要添加自己的图片，运行程序还需要建立onfire和forest文件夹，onfire用于存放有火灾的森林图片，forest用于存放无火灾的森林图片。并且还需修改processsImg.m中的文件路径。
+3. 由于之前运行时已经将processImg.m的运行结果保存在svmdata.mat文件中，因此可以直接运行forestOnFire.m程序，不需要修改任何程序。
